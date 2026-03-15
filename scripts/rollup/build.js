@@ -483,6 +483,7 @@ function getPlugins(
           env: 'CUSTOM',
           warning_level: 'QUIET',
           source_map_include_content: true,
+         // create_source_map: true,
           use_types_for_optimization: false,
           process_common_js_modules: false,
           rewrite_polyfills: false,
